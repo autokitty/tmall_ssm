@@ -6,15 +6,17 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 <script>
-    $(function () {
-        $("#addFrom").submit(function () {
-            if(!checkEmpty("name","分类图片"))
+    $(function(){
+
+        $("#addForm").submit(function(){
+            if(!checkEmpty("name","分类名称"))
                 return false;
             if(!checkEmpty("categoryPic","分类图片"))
                 return false;
             return true;
-        })
-    })
+        });
+    });
+
 </script>
 
 <title>分类管理</title>
@@ -57,7 +59,7 @@
     </div>
 
     <div class="pageDiv">
-        <%@include file="../include/admin/adminPage.jsp" %>
+        <%//@include file="../include/admin/adminPage.jsp" %>
     </div>
 
     <div class="panel panel-warning addDiv">
