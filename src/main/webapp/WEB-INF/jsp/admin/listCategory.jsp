@@ -6,17 +6,15 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 <script>
-    $(function(){
-
-        $("#addForm").submit(function(){
-            if(!checkEmpty("name","分类名称"))
+    $(function () {
+        $("#addFrom").submit(function () {
+            if(!checkEmpty("name","分类图片"))
                 return false;
             if(!checkEmpty("categoryPic","分类图片"))
                 return false;
             return true;
-        });
-    });
-
+        })
+    })
 </script>
 
 <title>分类管理</title>
