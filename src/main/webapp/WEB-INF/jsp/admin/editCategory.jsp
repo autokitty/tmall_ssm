@@ -5,21 +5,18 @@
 <%@include file="../include/admin/adminHeader.jsp"%>
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
-
-
 <title>编辑分类</title>
 
-
 <script>
-    $(function(){
+	$(function(){
 
-        $("#editForm").submit(function(){
-            if(!checkEmpty("name","分类名称"))
-                return false;
+		$("#editForm").submit(function(){
+			if(!checkEmpty("name","分类名称"))
+				return false;
 
-            return true;
-        });
-    });
+			return true;
+		});
+	});
 
 </script>
 
