@@ -7,6 +7,16 @@ public class Property {
 
     private String name;
 
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    private Category category;
+
     public Integer getId() {
         return id;
     }

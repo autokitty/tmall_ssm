@@ -57,10 +57,10 @@
             </tbody>
         </table>
     </div>
-
     <div class="pageDiv">
-        <%//@include file="../include/admin/adminPage.jsp" %>
+        <%@include file="../include/admin/adminPage.jsp"%>
     </div>
+
 
     <div class="panel panel-warning addDiv">
         <div class="panel-heading">新增分类</div>
@@ -69,18 +69,19 @@
                 <table class="addTable">
                     <tr>
                         <td>分类名称</td>
-                        <td><input  id="name" name="name" type="text" class="form-control"></td>
+                        <td><input id="name" name="name" type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>分类圖片</td>
+                        <td>分类图片</td>
                         <td>
-                            <input id="categoryPic" accept="image/*" type="file" name="image" />
+                            <input id="categoryPic" accept="image/*" type="file" name="image">
                         </td>
                     </tr>
                     <tr class="submitTR">
                         <td colspan="2" align="center">
-                            <button type="submit" class="btn btn-success">提 交</button>
+                            <button type="submit" class="btn btn-success">提交</button>
                         </td>
+
                     </tr>
                 </table>
             </form>

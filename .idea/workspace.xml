@@ -6,69 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd6aa76-52f1-4dd9-b3d9-306cf16dbd8d" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/ProductImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/PropertyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/PropertyValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/ReviewMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/CategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/OrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/OrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/ProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/ProductImageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/PropertyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/PropertyValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/ReviewExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/util/MybatisGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/util/OverIsMergeablePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReviewMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+    <list default="true" id="8fd6aa76-52f1-4dd9-b3d9-306cf16dbd8d" name="默认更改列表" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProperty.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/util/MybatisGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/util/MybatisGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/admin/adminPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/how2java/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/how2java/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/editCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/editCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/img/category/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/img/category/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminPage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -138,7 +109,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\tmall_ssm\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MybatisGenerator">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.64">
     <configuration name="MybatisGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.how2java.tmall.util.MybatisGenerator" />
       <module name="tmall_ssm" />
@@ -166,12 +137,12 @@
       </method>
     </configuration>
     <configuration name="Tomcat 7.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/tmall_ssm/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="tmall_ssm:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/tmall_ssm" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -238,6 +209,11 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MybatisGenerator" />
+      <item itemvalue="Application.TestTmall" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.64" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MybatisGenerator" />
@@ -254,11 +230,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="运行" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -283,7 +254,11 @@
       <workItem from="1585534220331" duration="1546000" />
       <workItem from="1585536217602" duration="591000" />
       <workItem from="1585536829189" duration="167000" />
-      <workItem from="1585537015802" duration="1263000" />
+      <workItem from="1585537015802" duration="10077000" />
+      <workItem from="1585611548136" duration="4526000" />
+      <workItem from="1585664830850" duration="708000" />
+      <workItem from="1585682746585" duration="8165000" />
+      <workItem from="1585732775247" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1584960970813</created>
@@ -348,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585057336683</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1585538306466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585538306466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,26 +382,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="965" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584964255124" />
-    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585041835478">
+    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585682908131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585041835478" />
-    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1585535667485">
+    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585682908131" />
+    <state x="1250" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585553576060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585535667485" />
-    <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585014429206">
+    <state x="1250" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585553576060" />
+    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1585729066180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585014429206" />
-    <state x="913" y="182" key="#自动导入" timestamp="1585014717355">
+    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585729066180" />
+    <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585552765146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="182" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1585014717355" />
-    <state x="526" y="201" key="CommitChangelistDialog2" timestamp="1585057335914">
+    <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585552765146" />
+    <state x="913" y="182" key="#自动导入" timestamp="1585553159702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="526" y="201" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585057335914" />
+    <state x="913" y="182" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1585553159702" />
+    <state x="526" y="201" key="CommitChangelistDialog2" timestamp="1585538328141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="201" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585538328141" />
     <state x="368" y="96" key="DiffContextDialog" timestamp="1585057026508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,38 +414,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1075" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584960929037" />
-    <state width="601" height="218" key="GridCell.Tab.0.bottom" timestamp="1585538040242">
+    <state width="1063" height="278" key="GridCell.Tab.0.bottom" timestamp="1585731151150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="601" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585538040242" />
-    <state width="601" height="218" key="GridCell.Tab.0.center" timestamp="1585538040242">
+    <state width="1063" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585731151150" />
+    <state width="1063" height="278" key="GridCell.Tab.0.center" timestamp="1585731151150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="601" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585538040242" />
-    <state width="601" height="218" key="GridCell.Tab.0.left" timestamp="1585538040242">
+    <state width="1063" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585731151150" />
+    <state width="1063" height="278" key="GridCell.Tab.0.left" timestamp="1585731151150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="601" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585538040242" />
-    <state width="601" height="218" key="GridCell.Tab.0.right" timestamp="1585538040242">
+    <state width="1063" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585731151150" />
+    <state width="1063" height="278" key="GridCell.Tab.0.right" timestamp="1585731151150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="601" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585538040242" />
+    <state width="1063" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585731151150" />
     <state x="980" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585536754702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="980" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585536754702" />
-    <state x="822" y="166" key="SettingsEditor" timestamp="1585057271466">
+    <state x="822" y="166" key="SettingsEditor" timestamp="1585554705512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="822" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585057271466" />
-    <state x="887" y="245" key="Vcs.Push.Dialog.v2" timestamp="1585057370982">
+    <state x="822" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585554705512" />
+    <state x="887" y="245" key="Vcs.Push.Dialog.v2" timestamp="1585538309632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="887" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585057370982" />
-    <state x="1218" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585537030433">
+    <state x="887" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585538309632" />
+    <state x="1218" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585732784267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1218" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585537030433" />
+    <state x="1218" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585732784267" />
     <state x="944" y="100" width="966" height="847" key="dock-window-1" timestamp="1585014797836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -468,9 +454,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="385" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585057205793" />
-    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585538034314">
+    <state x="669" y="220" key="new project wizard" timestamp="1585732953162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585538034314" />
+    <state x="669" y="220" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585732953162" />
+    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585730977620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585730977620" />
   </component>
 </project>
