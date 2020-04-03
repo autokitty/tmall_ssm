@@ -6,26 +6,23 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 <script>
-    $(function() {
-
-        $("#addForm").submit(function() {
-            if (checkEmpty("name", "属性名称"))
+    $(function () {
+        $("#addForm").submit(function () {
+            if(checkEmpty("name","属性名称"))
                 return true;
             return false;
-        });
-    });
+        })
+    })
 </script>
 
 <title>属性管理</title>
 
 <div class="workingArea">
-
     <ol class="breadcrumb">
-        <li><a href="admin_category_list">所有分类</a></li>
-        <li><a href="admin_property_list?cid=${c.id}">${c.name}</a></li>
+        <li><a href="/admin_category_list">所有分类</a> </li>
+        <li><a href="admin_property_list?cid=${c.id}">${c.name}</a> </li>
         <li class="active">属性管理</li>
     </ol>
-
     <div class="listDataTableDiv">
         <table
                 class="table table-striped table-bordered table-hover  table-condensed">
@@ -54,7 +51,6 @@
             </tbody>
         </table>
     </div>
-
     <div class="pageDiv">
         <%@include file="../include/admin/adminPage.jsp"%>
     </div>
@@ -66,20 +62,17 @@
                 <table class="addTable">
                     <tr>
                         <td>属性名称</td>
-                        <td><input id="name" name="name" type="text"
-                                   class="form-control"></td>
+                        <td><input id="name" name="name" type="text" class="form-control"></td>
                     </tr>
                     <tr class="submitTR">
                         <td colspan="2" align="center">
                             <input type="hidden" name="cid" value="${c.id}">
-                            <button type="submit" class="btn btn-success">提 交</button>
+                            <button type="submit" class="btn btn-success">提交</button>
                         </td>
                     </tr>
                 </table>
             </form>
         </div>
     </div>
-
 </div>
-
 <%@include file="../include/admin/adminFooter.jsp"%>

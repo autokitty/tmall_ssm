@@ -8,7 +8,7 @@ public class PropertyValue {
     private Integer ptid;
 
     private String value;
-
+    //让其拥有property属性
     private Property property;
 
     public Property getProperty() {

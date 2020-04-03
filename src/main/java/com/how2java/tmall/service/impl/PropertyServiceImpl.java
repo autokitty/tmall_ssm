@@ -20,6 +20,7 @@ public class PropertyServiceImpl implements PropertyService {
     @Override
     public void delete(int id) {
         propertyMapper.deleteByPrimaryKey(id);
+
     }
 
     @Override
@@ -29,16 +30,15 @@ public class PropertyServiceImpl implements PropertyService {
 
     @Override
     public Property get(int id) {
-       return propertyMapper.selectByPrimaryKey(id);
+        return propertyMapper.selectByPrimaryKey(id);
     }
 
     @Override
     public List list(int cid) {
         PropertyExample example=new PropertyExample();
-
-        //它的使用也很方便，这一行表示查询cid字段
         example.createCriteria().andCidEqualTo(cid);
         example.setOrderByClause("id desc");
+
         return propertyMapper.selectByExample(example);
     }
 }

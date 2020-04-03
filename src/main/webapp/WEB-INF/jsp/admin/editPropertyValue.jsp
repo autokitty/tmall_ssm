@@ -6,7 +6,6 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 
 <title>编辑产品属性值</title>
-
 <script>
     $(function() {
         $("input.pvValue").keyup(function(){

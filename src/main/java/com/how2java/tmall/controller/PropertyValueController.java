@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -44,6 +45,12 @@ public class PropertyValueController {
         model.addAttribute("pvs",pvs);
         return "admin/editPropertyValue";
 
+    }
+    @RequestMapping("admin_propertyValue_update")
+    @ResponseBody
+    public String update(PropertyValue pv){
+        propertyValueService.update(pv);
+        return "success";
     }
 
 

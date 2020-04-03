@@ -34,18 +34,16 @@ public class PropertyValueServiceImpl implements PropertyValueService {
          * 这里一个产品对应多个属性
          *根据产品对应的分类调出这个分类所有的属性
          */
-        List<Property> pts=propertyService.list(p.getCid());
-
-        for(Property pt:pts){
-            PropertyValue pv=get(pt.getId(),p.getId());
-
-            if(null==pv){
-                pv=new PropertyValue();
-                pv.setPid(p.getId());
-                pv.setPtid(pt.getId());
-                propertyValueMapper.insert(pv);
-            }
-        }
+       List<Property> pts=propertyService.list(p.getCid());
+       for(Property pt:pts){
+           PropertyValue pv=get(pt.getId(),p.getId());
+           if(null==pv){
+               pv=new PropertyValue();
+               pv.setPid(p.getId());
+               pv.setPtid(pt.getId());
+               propertyValueMapper.insert(pv);
+           }
+       }
 
     }
 

@@ -6,23 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd6aa76-52f1-4dd9-b3d9-306cf16dbd8d" name="默认更改列表" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/ProductImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/ProductImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProductImage.jsp" afterDir="false" />
+    <list default="true" id="8fd6aa76-52f1-4dd9-b3d9-306cf16dbd8d" name="默认更改列表" comment="test1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/controller/PropertyValueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/pojo/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/PropertyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/how2java/tmall/service/impl/PropertyValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProperty.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProperty.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +40,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +95,9 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.how2java.tmall.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\tmall_ssm\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Administrator\IdeaProjects\tmall_ssm\src\main\webapp" />
@@ -122,6 +131,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 7.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/admin_category_list" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -219,7 +229,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="运行" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="完成" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -251,7 +261,7 @@
       <workItem from="1585732775247" duration="185000" />
       <workItem from="1585740439073" duration="4923000" />
       <workItem from="1585751418132" duration="610000" />
-      <workItem from="1585797259622" duration="4051000" />
+      <workItem from="1585797259622" duration="16800000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1584960970813</created>
@@ -330,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585740523164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <created>1585885988526</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585885988526</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,37 +392,38 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="965" y="182" key="#Notifications" timestamp="1584964255124">
+    <state x="965" y="182" key="#Notifications" timestamp="1585908685344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="965" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584964255124" />
-    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585682908131">
+    <state x="965" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1585908685344" />
+    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585921229742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585682908131" />
+    <state x="827" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585921229742" />
     <state x="1250" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585553576060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1250" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585553576060" />
-    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1585797572192">
+    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1585918236213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585797572192" />
+    <state x="1290" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585918236213" />
     <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585552765146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1362" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585552765146" />
-    <state x="913" y="182" key="#自动导入" timestamp="1585553159702">
+    <state x="913" y="182" key="#自动导入" timestamp="1585908190470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="182" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1585553159702" />
-    <state x="526" y="201" key="CommitChangelistDialog2" timestamp="1585740734980">
+    <state x="913" y="182" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1585908190470" />
+    <state x="526" y="201" key="CommitChangelistDialog2" timestamp="1585917482314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="526" y="201" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585740734980" />
+    <state x="526" y="201" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585917482314" />
     <state x="368" y="96" key="DiffContextDialog" timestamp="1585057026508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,22 +432,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1075" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584960929037" />
-    <state width="740" height="180" key="GridCell.Tab.0.bottom" timestamp="1585821361289">
+    <state width="759" height="180" key="GridCell.Tab.0.bottom" timestamp="1585922943361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="740" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585821361289" />
-    <state width="740" height="180" key="GridCell.Tab.0.center" timestamp="1585821361289">
+    <state width="759" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585922943361" />
+    <state width="759" height="180" key="GridCell.Tab.0.center" timestamp="1585922943361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="740" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585821361289" />
-    <state width="740" height="180" key="GridCell.Tab.0.left" timestamp="1585821361289">
+    <state width="759" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585922943361" />
+    <state width="759" height="180" key="GridCell.Tab.0.left" timestamp="1585922943361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="740" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585821361289" />
-    <state width="740" height="180" key="GridCell.Tab.0.right" timestamp="1585821361289">
+    <state width="759" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585922943361" />
+    <state width="759" height="180" key="GridCell.Tab.0.right" timestamp="1585922943361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="740" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585821361289" />
+    <state width="759" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585922943361" />
     <state x="980" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585536754702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -438,10 +456,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="822" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585554705512" />
-    <state x="887" y="245" key="Vcs.Push.Dialog.v2" timestamp="1585740577429">
+    <state x="887" y="245" key="Vcs.Push.Dialog.v2" timestamp="1585885990480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="887" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585740577429" />
+    <state x="887" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585885990480" />
     <state x="1218" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585797258417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -462,9 +480,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1061" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585743920634" />
-    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585821032171">
+    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585921838392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585821032171" />
+    <state x="1049" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585921838392" />
   </component>
 </project>
