@@ -11,6 +11,7 @@ import com.how2java.tmall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 @Service
 class ProductServiceImpl implements ProductService {
@@ -80,4 +81,45 @@ class ProductServiceImpl implements ProductService {
         }
     }
 
+    @Override
+    public void fill(List<Category> cs) {
+        for(Category c:cs){
+            fill(c);
+        }
+
+    }
+
+    /**
+     * 扔进来一个category 得到对应的Product
+     * 把得到的Products 给c，成为category的属性
+     * 归根到底是给c用的
+     * @param c
+     */
+    @Override
+    public void fill(Category c) {
+        List<Product> ps=list(c.getId());
+        c.setProducts(ps);
+
+
+    }
+
+    @Override
+    public void fillByRow(List<Category> cs) {
+        int productNumberEachRow = 8;
+        for (Category c : cs) {
+            //得到所有的产品
+            List<Product> products =  c.getProducts();
+            List<List<Product>> productsByRow =  new ArrayList<>();
+
+            for (int i = 0; i < products.size(); i+=productNumberEachRow) {
+
+                int size = i+productNumberEachRow;
+                size= size>products.size()?products.size():size;
+                List<Product> productsOfEachRow =products.subList(i, size);
+                productsByRow.add(productsOfEachRow);
+            }
+            c.setProductsByRow(productsByRow);
+        }
+
+    }
 }
